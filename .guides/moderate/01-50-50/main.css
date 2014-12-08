@@ -1,0 +1,27 @@
+/*
+    Document   : ．guides/moderate/01-50-50/main．css
+    Created on : 2014-09-10 11:12 AM
+    Author     : fmay
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+div {
+  height: 50px;
+  text-align: center; 
+  padding-top: 20px;
+}
+
+#leftpanel {
+  float: left;
+  width: 70%;
+  background-color: red;
+}
+
+#rightpanel {
+  float: right;
+  width: 30%;
+  background-color: green;  
+}
+

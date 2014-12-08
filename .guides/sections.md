@@ -237,7 +237,31 @@ editable: false
 layout: ""
 
 ---
+#Loading the Challenge
+To load this challenge, press the link below. 
 
+[**LOAD CHALLENGE**]()
+
+#Challenge
+The `index.html` file contains some <p> elements along with a <div>. You need to position this div relative to the <p> tags so it looks like this 
+
+![](.guides/easy/05-relativepos/result.png)
+
+Here are some guidelines
+
+- use `main.css` to style the <div> element only
+- the relative position of the div is 20 pixels from the top and 50 pixels from the left
+- set a background color of light gray
+- the font-size of the div content is 20 pixels
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
 ---
 title: MODERATE
 files: []
@@ -245,12 +269,9 @@ editable: true
 layout: ""
 
 ---
-1. [2 Columns, fixed width]() - designing a 2 column layout that is page centered.
-1. [2 Columns, variable width]() - a 2 column layout with columns expanding to almost fill the page.
-1. [What's wrong here?]() - we've got a layout issue that is not quite working. Sort it out!
-1. [Make the whole div a link]() - we have got a <div> with an image and some text with a link on it. Make the entire <div> clickable.
-1. Web Font
-1. Font Awesome Icons
+These challenges are a little harder but should not present much of a problem.
+
+You should be able to do these from memory but it if not, Google is your friend.
 ---
 title: "50:50 panels"
 files: []
@@ -258,7 +279,36 @@ editable: false
 layout: ""
 
 ---
+#Loading the Challenge
+To load this challenge, press the link below. 
 
+[**LOAD CHALLENGE**]()
+
+#Challenge
+The `index.html` file is set up and does not need modifying. You goal is to create the following output.
+
+![](.guides/moderate/01-50-50/result.png)
+
+Here are some guidelines
+
+- your css should contain 3 selectors only (a <div>
+ selector for common elements and an ID selector for the left and right panels)
+- set the height of your divs to 50 pixels
+- center the text within the divs
+- pad the top of the div by 20 pixels
+- the red div is 70% of the overall width and the green 50%
+
+When previewing, if you adjust the width of the preview window you should see everything resizing nicely.
+
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
 ---
 title: "Fully clickable <div>"
 files: []
@@ -266,7 +316,33 @@ editable: false
 layout: ""
 
 ---
+#Loading the Challenge
+To load this challenge, press the link below. 
 
+[**LOAD CHALLENGE**]()
+
+#Challenge
+The `index.html` file is set up and does not need modifying. As things stand, there is a link set on the text contained within the div.
+
+Your job is to make the entire div area responsive to the mouse over and the click by modifying `main.css`.
+
+![](.guides/moderate/02-divclick/result.png)
+
+#Guidelines
+
+- Set the div to be 80% of the width and to be centered
+- you'll need to center the text
+- add some padding to the <a> element so it does not touch the top
+- get the <div> to be clickable anywhere
+
+#Saving your work
+If you want to move to another challenge then you can save what you have done on the current challenge by clicking the link below.
+
+[**SAVE MY WORK**]()  cp ~/workspace/main.css ~/workspace/.guides/easy/02-inline && cp index.html ~/workspace/.guides/easy/02-inline
+
+To restore it, click this link
+
+[**RESTORE MY WORK**]() cp  ~/workspace/.guides/easy/02-inline ~/workspace/main.css && cp ~/workspace/.guides/easy/02-inline ~/workspace/main.css
 ---
 title: "Floating <div>s"
 files: []
